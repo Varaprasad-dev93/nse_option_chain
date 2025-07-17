@@ -1,0 +1,26 @@
+# NSE Option Chain Backend Requirements
+# ====================================
+
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Database
+pymongo>=4.5.0
+
+# HTTP Client
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data Validation
+pydantic>=2.4.0
+
+# Date/Time handling
+python-dateutil>=2.8.0
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Development (optional)
+python-multipart>=0.0.6

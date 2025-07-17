@@ -1,0 +1,257 @@
+2025-07-17 09:03:49,829 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:03:49,830 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:03:49,830 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:03:49,832 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:03:51,120 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:03:58,678 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=NIFTY&csv=true (Caused by ResponseError('too many 500 error responses'))
+2025-07-17 09:03:58,680 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:03:59,503 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:04:09,303 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=NIFTY&csv=true (Caused by ResponseError('too many 500 error responses'))
+2025-07-17 09:04:09,304 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:04:11,159 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:04:21,467 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=NIFTY&csv=true (Caused by ResponseError('too many 500 error responses'))
+2025-07-17 09:04:21,541 - Test - INFO - Parsed 3 CALL options and 3 PUT options for NIFTY
+2025-07-17 09:04:21,552 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:04:21,556 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:04:21,557 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:04:21,557 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:04:32,333 - NSE_Pipeline - ERROR - Failed to connect to MongoDB: SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 68786f3d41c7949e6b2c6f05, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-wghahjo-shard-00-00.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-01.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-02.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2025-07-17 09:04:32,382 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:04:32,383 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:04:32,429 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:04:32,431 - NSE_Pipeline - INFO - Initializing pipeline components...
+2025-07-17 09:04:32,432 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:04:33,482 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:04:33,483 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:04:43,570 - NSE_Pipeline - ERROR - Failed to connect to MongoDB: SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 68786f4941c7949e6b2c6f06, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-wghahjo-shard-00-00.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-01.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-02.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2025-07-17 09:04:43,596 - NSE_Pipeline - ERROR - Failed to initialize pipeline: SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 68786f4941c7949e6b2c6f06, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-wghahjo-shard-00-00.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-01.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-02.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2025-07-17 09:04:43,642 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:04:43,647 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:04:43,649 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:04:43,649 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:04:55,330 - NSE_Pipeline - ERROR - Failed to connect to MongoDB: SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms),SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 68786f5341c7949e6b2c6f07, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-wghahjo-shard-00-00.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-00.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-01.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-01.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>, <ServerDescription ('ac-wghahjo-shard-00-02.eviy31f.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-wghahjo-shard-00-02.eviy31f.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (configured timeouts: socketTimeoutMS: 5000.0ms, connectTimeoutMS: 5000.0ms)')>]>
+2025-07-17 09:08:12,964 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:08:12,965 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:08:12,966 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:08:12,968 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:08:14,000 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:08:23,355 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:08:23,355 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:08:24,225 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:08:36,240 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:08:36,240 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:08:37,043 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:08:48,412 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:08:48,413 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:08:48,476 - Test - INFO - Parsed 3 CALL options and 3 PUT options for NIFTY
+2025-07-17 09:08:48,480 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:08:48,481 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:08:48,482 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:08:48,482 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:08:55,752 - NSE_Pipeline - INFO - Successfully connected to MongoDB Atlas
+2025-07-17 09:08:55,754 - NSE_Pipeline - INFO - Setting up MongoDB indexes...
+2025-07-17 09:08:55,947 - NSE_Pipeline - INFO - MongoDB indexes created successfully
+2025-07-17 09:08:56,029 - NSE_Pipeline - INFO - MongoDB connection closed
+2025-07-17 09:08:56,033 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:08:56,034 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:08:56,037 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:08:56,038 - NSE_Pipeline - INFO - Initializing pipeline components...
+2025-07-17 09:08:56,038 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:08:56,993 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:08:56,994 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:09:03,613 - NSE_Pipeline - INFO - Successfully connected to MongoDB Atlas
+2025-07-17 09:09:03,613 - NSE_Pipeline - INFO - Setting up MongoDB indexes...
+2025-07-17 09:09:03,772 - NSE_Pipeline - INFO - MongoDB indexes created successfully
+2025-07-17 09:09:03,772 - NSE_Pipeline - INFO - All pipeline components initialized successfully
+2025-07-17 09:09:12,382 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:09:12,383 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:09:13,257 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:09:23,812 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:09:23,812 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:09:25,554 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:09:38,857 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:09:38,858 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:09:38,895 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:09:40,350 - NSE_Pipeline - INFO - Cleaning up pipeline resources...
+2025-07-17 09:09:40,391 - NSE_Pipeline - INFO - MongoDB connection closed
+2025-07-17 09:09:40,391 - NSE_Pipeline - INFO - Pipeline shutdown complete
+2025-07-17 09:09:40,394 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:09:40,395 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:09:40,395 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:09:40,396 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:09:47,570 - NSE_Pipeline - INFO - Successfully connected to MongoDB Atlas
+2025-07-17 09:09:47,571 - NSE_Pipeline - INFO - Setting up MongoDB indexes...
+2025-07-17 09:09:47,696 - NSE_Pipeline - INFO - MongoDB indexes created successfully
+2025-07-17 09:09:47,764 - NSE_Pipeline - INFO - MongoDB connection closed
+2025-07-17 09:13:43,408 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:13:43,409 - NSE_Pipeline - INFO - NSE Option Chain Pipeline - Starting Up
+2025-07-17 09:13:43,410 - NSE_Pipeline - INFO - ============================================================
+2025-07-17 09:13:43,410 - NSE_Pipeline - INFO - Initializing pipeline components...
+2025-07-17 09:13:43,411 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:13:44,255 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:13:44,257 - NSE_Pipeline - INFO - Connecting to MongoDB Atlas...
+2025-07-17 09:13:50,936 - NSE_Pipeline - INFO - Successfully connected to MongoDB Atlas
+2025-07-17 09:13:50,936 - NSE_Pipeline - INFO - Setting up MongoDB indexes...
+2025-07-17 09:13:51,092 - NSE_Pipeline - INFO - MongoDB indexes created successfully
+2025-07-17 09:13:51,094 - NSE_Pipeline - INFO - All pipeline components initialized successfully
+2025-07-17 09:13:51,095 - NSE_Pipeline - INFO - Starting continuous pipeline for symbols: ['NIFTY']
+2025-07-17 09:13:51,096 - NSE_Pipeline - INFO - Fetch interval: 5 seconds
+2025-07-17 09:13:51,098 - NSE_Pipeline - INFO - --- Cycle #1 ---
+2025-07-17 09:13:59,037 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:13:59,039 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:13:59,878 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:14:12,284 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:14:12,286 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:14:13,160 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:14:23,853 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:14:23,856 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:14:23,970 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:14:25,091 - NSE_Pipeline - WARNING - Cycle took 33.99s, longer than interval 5s
+2025-07-17 09:14:25,092 - NSE_Pipeline - INFO - --- Cycle #2 ---
+2025-07-17 09:14:32,911 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:14:32,912 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:14:33,835 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:14:50,305 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:14:50,307 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:14:51,661 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:15:03,391 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:15:03,392 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:15:03,438 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:15:04,547 - NSE_Pipeline - WARNING - Cycle took 39.46s, longer than interval 5s
+2025-07-17 09:15:04,548 - NSE_Pipeline - INFO - --- Cycle #3 ---
+2025-07-17 09:15:12,547 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:15:12,564 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:15:14,244 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:15:24,944 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:15:24,966 - NSE_Pipeline - WARNING - Cycle took 20.42s, longer than interval 5s
+2025-07-17 09:15:24,967 - NSE_Pipeline - INFO - --- Cycle #4 ---
+2025-07-17 09:15:32,459 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:15:32,474 - NSE_Pipeline - WARNING - Cycle took 7.51s, longer than interval 5s
+2025-07-17 09:15:32,475 - NSE_Pipeline - INFO - --- Cycle #5 ---
+2025-07-17 09:15:40,348 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:15:40,359 - NSE_Pipeline - WARNING - Cycle took 7.88s, longer than interval 5s
+2025-07-17 09:15:40,361 - NSE_Pipeline - INFO - --- Cycle #6 ---
+2025-07-17 09:15:47,690 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:15:47,714 - NSE_Pipeline - WARNING - Cycle took 7.35s, longer than interval 5s
+2025-07-17 09:15:47,715 - NSE_Pipeline - INFO - --- Cycle #7 ---
+2025-07-17 09:15:56,132 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:15:56,144 - NSE_Pipeline - WARNING - Cycle took 8.43s, longer than interval 5s
+2025-07-17 09:15:56,145 - NSE_Pipeline - INFO - --- Cycle #8 ---
+2025-07-17 09:16:03,532 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:16:03,541 - NSE_Pipeline - WARNING - Cycle took 7.40s, longer than interval 5s
+2025-07-17 09:16:03,542 - NSE_Pipeline - INFO - --- Cycle #9 ---
+2025-07-17 09:16:11,308 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:16:11,319 - NSE_Pipeline - WARNING - Cycle took 7.78s, longer than interval 5s
+2025-07-17 09:16:11,320 - NSE_Pipeline - INFO - --- Cycle #10 ---
+2025-07-17 09:16:19,249 - NSE_Pipeline - INFO - Parsed 0 CALL options and 0 PUT options for NIFTY
+2025-07-17 09:16:19,435 - NSE_Pipeline - WARNING - Cycle took 8.11s, longer than interval 5s
+2025-07-17 09:16:19,435 - NSE_Pipeline - INFO - --- Cycle #11 ---
+2025-07-17 09:16:28,959 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:16:28,959 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:16:29,690 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:16:41,037 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:16:41,038 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:16:42,028 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:16:53,128 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:16:53,129 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:16:53,219 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:16:54,279 - NSE_Pipeline - WARNING - Cycle took 34.84s, longer than interval 5s
+2025-07-17 09:16:54,279 - NSE_Pipeline - INFO - --- Cycle #12 ---
+2025-07-17 09:17:02,698 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:17:02,701 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:17:03,582 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:17:14,416 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:17:14,417 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:17:15,266 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:17:26,110 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:17:26,111 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:17:26,159 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:17:27,221 - NSE_Pipeline - WARNING - Cycle took 32.94s, longer than interval 5s
+2025-07-17 09:17:27,221 - NSE_Pipeline - INFO - --- Cycle #13 ---
+2025-07-17 09:17:35,456 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:17:35,459 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:17:36,193 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:17:46,907 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:17:46,908 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:17:47,584 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:17:58,793 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:17:58,794 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:17:58,870 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:17:59,929 - NSE_Pipeline - WARNING - Cycle took 32.71s, longer than interval 5s
+2025-07-17 09:17:59,930 - NSE_Pipeline - INFO - --- Cycle #14 ---
+2025-07-17 09:18:07,925 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:18:07,926 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:18:08,701 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:18:19,253 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:18:19,254 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:18:20,048 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:18:30,425 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:18:30,426 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:18:30,478 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:18:31,583 - NSE_Pipeline - WARNING - Cycle took 31.65s, longer than interval 5s
+2025-07-17 09:18:31,585 - NSE_Pipeline - INFO - --- Cycle #15 ---
+2025-07-17 09:18:40,554 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:18:40,555 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:18:41,344 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:18:51,809 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:18:51,810 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:18:52,690 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:19:03,367 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:19:03,371 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:19:03,441 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:19:03,812 - NSE_Pipeline - WARNING - Cycle took 32.23s, longer than interval 5s
+2025-07-17 09:19:03,815 - NSE_Pipeline - INFO - --- Cycle #16 ---
+2025-07-17 09:19:11,584 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:19:11,585 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:19:12,333 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:19:22,723 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:19:22,724 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:19:23,553 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:19:35,575 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:19:35,576 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:19:35,618 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:19:36,679 - NSE_Pipeline - WARNING - Cycle took 32.86s, longer than interval 5s
+2025-07-17 09:19:36,679 - NSE_Pipeline - INFO - --- Cycle #17 ---
+2025-07-17 09:19:46,870 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:19:46,875 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:19:47,611 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:19:58,516 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:19:58,517 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:19:59,322 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:20:09,760 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:20:09,761 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:20:09,817 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:20:10,881 - NSE_Pipeline - WARNING - Cycle took 34.20s, longer than interval 5s
+2025-07-17 09:20:10,881 - NSE_Pipeline - INFO - --- Cycle #18 ---
+2025-07-17 09:20:18,874 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:20:18,875 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:20:19,629 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:20:32,755 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:20:32,757 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:20:33,540 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:20:47,177 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:20:47,178 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:20:47,218 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:20:47,954 - NSE_Pipeline - WARNING - Cycle took 37.07s, longer than interval 5s
+2025-07-17 09:20:47,955 - NSE_Pipeline - INFO - --- Cycle #19 ---
+2025-07-17 09:20:55,648 - NSE_Pipeline - WARNING - Attempt 1 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:20:55,650 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:20:56,407 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:21:00,982 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:06,787 - NSE_Pipeline - WARNING - Attempt 2 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:21:06,789 - NSE_Pipeline - INFO - Initializing NSE session...
+2025-07-17 09:21:07,561 - NSE_Pipeline - INFO - NSE session initialized successfully
+2025-07-17 09:21:09,508 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:09,970 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:10,405 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:10,937 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:11,265 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:11,984 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:12,359 - NSE_Pipeline - INFO - Received signal 2, initiating graceful shutdown...
+2025-07-17 09:21:19,802 - NSE_Pipeline - WARNING - Attempt 3 failed for NIFTY: Expecting value: line 1 column 1 (char 0)
+2025-07-17 09:21:19,803 - NSE_Pipeline - WARNING - Using fallback CSV data from local file
+2025-07-17 09:21:19,848 - NSE_Pipeline - INFO - Parsed 90 CALL options and 90 PUT options for NIFTY
+2025-07-17 09:21:20,927 - NSE_Pipeline - WARNING - Cycle took 32.97s, longer than interval 5s
+2025-07-17 09:21:20,928 - NSE_Pipeline - INFO - Cleaning up pipeline resources...
+2025-07-17 09:21:20,973 - NSE_Pipeline - INFO - MongoDB connection closed
+2025-07-17 09:21:20,975 - NSE_Pipeline - INFO - Pipeline shutdown complete
