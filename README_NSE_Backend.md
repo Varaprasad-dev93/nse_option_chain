@@ -305,10 +305,3 @@ logging.basicConfig(level=logging.DEBUG)
 4. Ensure all tests pass: `pytest test_nse_backend.py -v`
 5. Submit pull request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-**Built with ❤️ by Augment AI for enterprise-grade financial data processing.**
