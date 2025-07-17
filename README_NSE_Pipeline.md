@@ -207,10 +207,3 @@ Tests include:
 4. Ensure all tests pass
 5. Submit pull request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-**Built with ❤️ by Augment AI for enterprise-grade financial data processing.**
